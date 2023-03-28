@@ -4,11 +4,11 @@ export function TableMahasiswa({ content }) {
             <table className="table w-full">
                 <thead>
                     <tr>
-                        <th className="bg-gray-200 dark:bg-slate-700"></th>
-                        <th className="bg-gray-200 dark:bg-slate-700">Nama Lengkap Mahanya</th>
-                        <th className="bg-gray-200 dark:bg-slate-700">NIMnya ini</th>
-                        <th className="bg-gray-200 dark:bg-slate-700">Nama Univnya</th>
-                        <th className="bg-gray-200 dark:bg-slate-700">Prodinya ini</th>
+                        <th className="bg-red-200 dark:bg-slate-700"></th>
+                        <th className="bg-red-200 dark:bg-slate-700">Nama Lengkap Mahanya</th>
+                        <th className="bg-red-200 dark:bg-slate-700">NIMnya ini</th>
+                        <th className="bg-red-200 dark:bg-slate-700">Nama Univnya</th>
+                        <th className="bg-red-200 dark:bg-slate-700">Prodinya ini</th>
                     </tr>
                 </thead>
                 <tbody>
