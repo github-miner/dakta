@@ -85,10 +85,10 @@ export default function HomePage() {
                     <div className="form-control w-full">
                         <input id='nama' type="text" placeholder="Nama atau Keyword..." className="input input-bordered w-full" maxLength="200" required />
                         <label className="label">
-                            <span className="label-text-alt">keyword: budi universitas trisakti atau budi 023931042</span>
+                            <span className="label-text-alt">keywordnya itu: fuckih stie mifda atau fuckih 000000 ya !</span>
                         </label>
                     </div>
-                    <button type='submit' className="btn btn-primary dark:btn-info" >Cari!</button>
+                    <button type='submit' className="btn btn-primary dark:btn-info" >Tekan ini untuk cari mas !</button>
                 </form>
 
                 {loadingMahasiswa || loadingDosen ?
@@ -123,7 +123,7 @@ export default function HomePage() {
             <div className='flex flex-col gap-y-14 py-8'>
                 {mahasiswa && showMahasiswa ?
                     <section>
-                        <p className='text-2xl uppercase text-center py-4'>Data Mahasiswa</p>
+                        <p className='text-2xl uppercase text-center py-4'>Data Para Mahasiswanya Mas</p>
                         <TableMahasiswa content={mahasiswa} />
                     </section> :
                     null
@@ -131,7 +131,7 @@ export default function HomePage() {
 
                 {dosen && showDosen ?
                     <section>
-                        <p className='text-2xl uppercase text-center py-4'>Data Dosen</p>
+                        <p className='text-2xl uppercase text-center py-4'>Data Dosennya Mas</p>
                         <TableDosen content={dosen} />
                     </section> :
                     null
